@@ -26,5 +26,19 @@
       "task": "Create a LinkedIn post generator that uses GitHub repositories to create engaging technical content"
     },
     "timestamp": "2025-06-10T06:04:54.978Z"
+  },
+  {
+    "id": 1749541220484,
+    "post": "🚀 Exciting News! 🚀\n\nI'm thrilled to share that I've recently completed a solo project, a LinkedIn post generator agent, and I'd love to give you a sneak peek into what makes it special! 💡\n\n**What's the Project About?**\nThis AI-powered agent uses GitHub repositories as its foundation, generating engaging technical content for your LinkedIn posts. It's not an application, but rather an intelligent tool designed to assist you in crafting compelling updates that showcase your expertise and spark meaningful conversations.\n\n**Tech Stack & Key Features**\nI leveraged JavaScript as the primary programming language, along with Ollama and LangChain, to create this innovative agent. Some of its key features include:\n\n* Analyzing GitHub repositories for relevant information\n* Generating post ideas based on repository data\n* Providing suggestions for engaging captions and hashtags\n\n**Get Involved!**\nCheck out the project's GitHub repository: https://github.com/yogendhra9/LinkedIn-post-agent\n\nI'd love to hear your feedback, star the repo, or connect with me if you're interested in exploring this technology further. Let's drive innovation together!\n\n#AIpowered #TechContent #GitHubRepos",
+    "metadata": {
+      "repo": {
+        "name": "LinkedIn-post-agent",
+        "description": "",
+        "url": "https://github.com/yogendhra9/LinkedIn-post-agent",
+        "language": "JavaScript"
+      },
+      "task": "Create a LinkedIn post generator that uses GitHub repositories to create engaging technical content"
+    },
+    "timestamp": "2025-06-10T07:40:20.484Z"
   }
 ]

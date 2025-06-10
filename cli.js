@@ -76,8 +76,18 @@ async function createNewPost() {
   console.log("\n🔄 Creating new post...");
 
   try {
+    // First ask for project description
+    const projectDescription = await getUserInput(
+      "\n📝 Describe about project: "
+    );
+
+    // Then fetch repositories
+    console.log("\n🔍 Fetching GitHub repositories...");
     const repos = await fetchGitHubRepos(process.env.GITHUB_USERNAME);
-    const bestMatch = matchDescription("linkedInagent", repos);
+
+    // Use the project description to find the best matching repository
+    console.log("\n🤝 Finding the best matching repository...");
+    const bestMatch = matchDescription(projectDescription, repos);
 
     if (!bestMatch) {
       console.log("❌ No matching repository found");
@@ -86,7 +96,7 @@ async function createNewPost() {
 
     console.log("🤖 Generating post...");
     const linkedInPost = await generateLinkedInPost({
-      task: "Create a LinkedIn post generator that uses GitHub repositories to create engaging technical content",
+      task: projectDescription,
       repo: bestMatch,
     });
 

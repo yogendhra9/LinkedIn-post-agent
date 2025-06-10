@@ -52,9 +52,9 @@ Project Details:
 - GitHub URL: ${repo.url}
 
 Requirements:
-0.It's a solo project and its not an application rather its an agent
+0.Dont mention about the team size.
 1. Explain what was built and why it matters
-2. Mention the tech stack used in the project. Additionally I've used ollama and langchain.Mention key features
+2. Mention the tech stack used in the project and Mention key features
 3. Include the GitHub link
 4. End with a call to action (e.g., feedback, stars, connections)
 5. Use 3-5 relevant hashtags
