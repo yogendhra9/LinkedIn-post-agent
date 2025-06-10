@@ -1,7 +1,19 @@
 {
   "type": "module",
+  "scripts": {
+    "start": "node cli.js",
+    "test": "node test.js"
+  },
   "dependencies": {
+    "@langchain/community": "^0.3.45",
+    "@langchain/core": "^0.3.57",
+    "@langchain/ollama": "^0.2.1",
     "axios": "^1.9.0",
-    "dotenv": "^16.5.0"
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "langchain": "^0.3.27",
+    "mongoose": "^8.15.1",
+    "open": "^10.1.2",
+    "string-similarity": "^4.0.4"
   }
 }
